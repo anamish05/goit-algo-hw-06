@@ -4,6 +4,7 @@ Explanation for the DFS and BFS traversal for the graph.
 1.Result for DFS traversal from the starting point Bilbao:
 [('Bilbao', 'Madrid'), ('Madrid', 'Barcelona'), ('Barcelona', 'Valencia'), ('Valencia', 'Seville'), ('Seville', 'Málaga'), ('Málaga', 'Granada'), 
 ('Granada', 'Córdoba'), ('Seville', 'Cádiz'), ('Valencia', 'Alicante'), ('Barcelona', 'Zaragoza'), ('Madrid', 'San Sebastián')]
+Note: in dfs_search to show the traversal, I used in_edges(), not edges(), to show first the deepest path, and then the rest of the paths.
 
 2.Result for BFS traversal from the starting point Bilbao:
 [('Bilbao', 'Madrid'), ('Bilbao', 'Valencia'), ('Bilbao', 'San Sebastián'), ('Madrid', 'Barcelona'), ('Madrid', 'Seville'), 
