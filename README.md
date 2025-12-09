@@ -1,5 +1,6 @@
 Explanation for the DFS and BFS traversal for the graph.
 Здійснено порівняння результатів алгоритмів для цього графа, пояснено різницю в отриманих шляхах. Обґрунтовано, чому шляхи для алгоритмів саме такі.
+
 1.Result for DFS traversal from the starting point Bilbao:
 [('Bilbao', 'Madrid'), ('Madrid', 'Barcelona'), ('Barcelona', 'Valencia'), ('Valencia', 'Seville'), ('Seville', 'Málaga'), ('Málaga', 'Granada'), 
 ('Granada', 'Córdoba'), ('Seville', 'Cádiz'), ('Valencia', 'Alicante'), ('Barcelona', 'Zaragoza'), ('Madrid', 'San Sebastián')]
